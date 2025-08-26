@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shereen G - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #f9fafb; color: #111; }
+    header { background: #1f2937; color: #fff; padding: 2rem; text-align: center; }
+    header h1 { margin: 0; font-size: 2rem; }
+    nav a { color: #fff; margin: 0 10px; text-decoration: none; }
+    section { padding: 3rem 1.5rem; max-width: 1000px; margin: auto; }
+    h2 { margin-bottom: 1rem; }
+    .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+    .card { background: #fff; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.08); padding: 1.5rem; display: flex; flex-direction: column; }
+    .card h3 { margin-top: 0; }
+    .card p { font-size: 0.95rem; margin: 0.5rem 0; }
+    .tech { font-size: 0.85rem; color: #374151; margin-top: auto; }
+    .buttons a { display: inline-block; margin-top: 0.5rem; margin-right: 0.5rem; padding: 0.4rem 0.8rem; background: #2563eb; color: #fff; text-decoration: none; border-radius: 6px; font-size: 0.85rem; }
+    .buttons a:hover { background: #1e40af; }
+    footer { background: #1f2937; color: #fff; text-align: center; padding: 1.5rem; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Shereen 👋</h1>
+    <p>Aspiring Developer | Python • Cloud • Web</p>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="assets/Shereen Giesecke Resume 2025.pdf" target="_blank">Resume</a>
+    </nav>
+  </header>
+
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <div class="projects">
+
+      <div class="card">
+        <h3>Python GUI Calculator</h3>
+        <p>A desktop calculator built with Tkinter, featuring clean layout, input validation, and basic error handling (like divide by zero).</p>
+        <p class="tech"><strong>Tech:</strong> Python, Tkinter, Git</p>
+        <div class="buttons">
+          <a href="https://github.com/ShereenG73/python-gui-calculator" target="_blank">Code</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Grocery Cart</h3>
+        <p>A simple shopping cart application with item and price management. Demonstrates how to track items, totals, and user updates — foundation for a checkout flow.</p>
+        <p class="tech"><strong>Tech:</strong> JavaScript, HTML, CSS</p>
+        <div class="buttons">
+          <a href="https://github.com/ShereenG73/Grocerycart" target="_blank">Code</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Simple Chatbox</h3>
+        <p>A frontend chatbox interface allowing users to enter and display messages in real time (client-side). Built to practice UI interaction and DOM manipulation.</p>
+        <p class="tech"><strong>Tech:</strong> JavaScript, HTML, CSS</p>
+        <div class="buttons">
+          <a href="https://github.com/ShereenG73/simple-chatbox" target="_blank">Code</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>AWS S3 Static Website</h3>
+        <p>Infrastructure-as-code project deploying a static website to AWS S3 using Terraform. Showcases knowledge of cloud hosting, IaC, and AWS services.</p>
+        <p class="tech"><strong>Tech:</strong> Terraform, AWS S3, Git</p>
+        <div class="buttons">
+          <a href="https://github.com/ShereenG73/aws--s3-static-website" target="_blank">Code</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm Shereen, an aspiring developer with an interest in Python, cloud, and frontend development.
+      I enjoy learning by building projects that solve real problems, from GUI apps to cloud-hosted sites.
+    </p>
+    <p>
+      <strong>Skills:</strong> Python, JavaScript, HTML/CSS, AWS, Terraform, Git/GitHub
+    </p>
+    <p>
+      <a href="assets/Shereen Giesecke Resume 2025.pdf" target="_blank" class="buttons">📄 Download Resume</a>
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Let's connect! You can reach me via:</p>
+    <p>
+      📧 <a href="mailto:shadowren73@yahoo.com">shadowren73@yahoo.com</a><br>
+      📞 207-281-2512<br>
+      🔗 <a href="https://github.com/ShereenG73" target="_blank">GitHub</a> | 
+      <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Shereen G. Built with ❤️ and GitHub Pages.</p>
+  </footer>
+</body>
+</html>
